@@ -1,13 +1,13 @@
-import EjemploArreglo from "./componentes/EjemploArreglo"
+import EjemploArreglo from "./componentes/EjemploArreglo";
+import Pila from "./componentes/Pila";
 
-function App() {
+function App(){
+  return(
+    <>
+    <EjemploArreglo/>
+    <Pila />
+    </>
+  );
 
-  //inicia el return 
-  return (
-   <>
-   <EjemploArreglo/>
-   </>
-  )
 }
-
-export default App
+export default App;
