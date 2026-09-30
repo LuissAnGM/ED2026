@@ -1,11 +1,13 @@
+// Inserta datos para simular una pila
 import React from 'react'
 import { useEffect, useState } from "react";
 
 function EJEMPLOARREGLOS() { // Iniciamos con un estado para un arreglo
-  const [elementos, setElementos] = useState([]);
+  const [elementos, setElementos] = useState(["Luis"]);
 
   // Crear función para agregar datos
   const agregarDato = () => {
+    console.log(elementos);
     const nuevoNumero = Math.floor(Math.random() * 50);
 
     setElementos([...elementos, nuevoNumero]);

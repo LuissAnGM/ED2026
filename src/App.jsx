@@ -4,8 +4,8 @@ import Ejemplo2 from "./componentes/Ejemplo2";
 function App(){
   return(
     <>
-    <EjemploArreglo/>
-    <Pila />
+  {/*   <EjemploArreglo/>
+    <Pila /> */}
     <Ejemplo2/>
     </>
   );
